@@ -3,14 +3,15 @@
 
 # 安装
 可以尝试将下面的内容逐行放进shell里运行
-
+## 下载
 ```$ wget https://raw.githubusercontent.com/hatsuyuki280/Easy_Printing/master/easyprint.sh && mv easyprint.sh easyprint```
+## 授予运行权限
 ```$ chmod +x easyprint```
-
+## 创建用户目录下的bin目录
 ```$ mkdir ~/.local/bin && mv easyprint ~/.local/bin/```
-
+## 进入用户目录
 ```$ cd ~```
-
+## 将用户文件夹下的bin设置进环境变量中
 ```$ echo "export PATH=$(pwd)/bin:$(pwd)/.local/bin:\"\$\{PATH\}\"" >> ~/.bashrc```
 
 
