@@ -46,7 +46,9 @@ echo "export PATH=$(pwd)/bin:$(pwd)/.local/bin:'${PATH}'" >> ~/.bashrc
 &nbsp; &nbsp; 自动创建本周要用的文件们。目前来说，只支持在前一周的基础上进行文件创建，否则将无法获取正确的文件名，而且只有java文件的样板，其他文件大概以后会加进去？前提是以后还用得到的话quq
 <h2 id='2.1'>安装</h2>
 &nbsp; &nbsp; 可以尝试将下面的内容逐行放进shell里运行
+
 ### 这里开始只是占位符，还没写完quq
+
 ``` ## 下载
 wget https://raw.githubusercontent.com/hatsuyuki280/Easy_Printing/master/easyprint.sh && mv easyprint.sh easyprint
 ## 授予运行权限
